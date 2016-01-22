@@ -1,0 +1,9 @@
+body.home div#content:before {
+    content: 'Seneste nyt';
+    display: block;
+    background: black;
+    color: white;
+    padding: 12px 20px;
+    margin: 40px 0px;
+    font-size: 16px;
+}

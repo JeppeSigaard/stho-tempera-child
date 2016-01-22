@@ -1,0 +1,44 @@
+body.home #front-text1,
+#front-text3{
+    
+    
+    h1, blockquote{
+    
+        max-width:640px;
+        margin: auto;
+        text-align: left;
+    }
+}
+
+body.home #front-text1{
+    padding-bottom: 0;
+    
+    @media only screen and(min-width:960px){
+        
+        border-top: 2px solid rgba(0,0,0,.1);
+        margin-top: -20px;
+        padding-top:40px;
+    }
+    
+    h1{
+        line-height: 1.1;
+        font-size:200%;
+        
+        @media only screen and(min-width:640px){
+            
+            font-size:300%;
+        }
+        
+    }
+    
+}
+
+#front-text3{
+
+    @media only screen and(min-width:960px){
+        
+        border-bottom: 2px solid rgba(0,0,0,.1);
+        padding-bottom:40px;
+        margin-bottom:20px;
+    }
+}

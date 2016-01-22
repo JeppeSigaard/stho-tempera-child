@@ -1,0 +1,53 @@
+#smamo-front-boxes{
+    font-size:0;
+    box-sizing: border-box;
+    
+    *{
+        box-sizing: inherit;
+    }
+    
+    @media only screen and(min-width:640px){
+        
+        margin:-20px;
+    }
+    
+    .box{
+        font-size:15px;
+        line-height: 1.7;
+        
+        .inner{
+            margin-bottom:20px;
+        }
+        
+        @media only screen and(min-width:640px){
+            padding: 20px;
+            width:50%;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+    }
+    
+    .entry-image {
+        padding-bottom: 22.5%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 20px 0px;
+    }
+    
+    .entry-header{
+        font-size: 16px;
+        background:black;
+        padding:12px 20px;
+        
+        h3,
+        a,
+        a:hover,
+        a:visited{
+            color:#fff;
+            line-height: 1.1;
+        }
+    }
+    
+}

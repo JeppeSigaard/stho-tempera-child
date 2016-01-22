@@ -1,0 +1,15 @@
+.entry-title span.origin-label {
+    background: #f0f0f0;
+    color: #555;
+    display: inline-block;
+    font-size: 50%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: top;
+    padding: 0px 10px;
+    margin-right:5px;
+}
+
+#access ul a span.origin-label {
+    display: none;
+}

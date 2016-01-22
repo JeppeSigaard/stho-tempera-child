@@ -1,0 +1,26 @@
+.button, body a.button{
+	display: inline-block;
+	padding: 10px 20px;
+	line-height:1;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: $input-color-light-3;
+	color: $input-color-base;
+	transition: background-color 120ms;
+	border-radius:3px;
+    text-transinput: uppercase;
+    box-shadow: none;
+
+	&:hover{
+		color:$input-color-base;
+		text-decoration: none;
+		background-color: darken($input-color-light-3,5);
+	}
+
+	&.disabled,
+	&.disbaled:hover{
+		background-color: $input-color-light-3;
+		cursor: default;
+	}
+
+}
